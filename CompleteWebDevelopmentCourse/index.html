@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@3.3.7/dist/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Arvo&display=swap" rel="stylesheet">
+    <title>Company Website</title>
+</head>
+<body data-spy="scroll" data-target="#mynavBar">
+      <video autoplay loop muted id="bgvideo"> <source src="/video/background.mp4" type="video/mp4"></video>
+     <!-- Create Navbar -->
+     <nav role="navigation" class="navbar navbar-custom navbar-fixed-top " id="mynavBar">
+        <div class="container-fluid">
+             <div class="navbar-header">
+                <a class="navbar-brand" href="">CodeAcademy</a>
+                <button type="button" class="navbar-toggle" data-target="#navbarCollapse" data-toggle="collapse">
+                    <span class="sr-only">Toggle Navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+             </div>
+             <div class="navbar-collapse collapse" id="navbarCollapse">
+                <ul class="nav navbar-nav navbar-right">
+                    <li class="ac" id=""> <a  href="#home" class="active">Home</a></li>
+                    <li class="ac"> <a href="#about">About</a></li>
+                    <li> <a href="#faculties">Faculties</a></li>
+                    <li> <a href="#">Subscription </a></li>
+                </ul>
+                
+              
+
+             </div>
+        </div>
+
+    </nav>
+
+    <div class="jumbotron" id="home">
+        <div class="container">
+             <h1>Cloud Computing with AWS</h1>
+             <h4>Go from zero skills  to  cash earning Developer</h4>
+             <a href=""> <button>Join us Now!</button></a>
+        </div>
+
+    </div>
+
+    <div id="about">
+        <div class="container">
+               <div class="row">
+                <div class="col-md-4">
+                   <img src="/Image/lecture.png" alt="" class="imagebody">
+                   <h2>High Quality Lecture</h2>
+                   <p>All lecture have been very well prepared for the learning experience of future Developer</p>
+                </div>
+                <div class="col-md-4">
+                   <img src="/Image/content.png" alt="" class="imagebody">
+                   <h2>+08H Of Rich Content</h2>
+                   <p>Learn all major technologies.HTML,CSS3,javaScript,jQuery,Twitter Bootstrap,PHP,muSQL,wordPress,Ajax,XML,jSOn,Mobile Apps,APIs:Google Maps,Facebook and More </p>
+                </div>
+                <div class="col-md-4" id="lastbox">
+                   <img src="/Image/help.png" alt="" class="imagebody">
+                   <h2>Get Help Anytime</h2>
+                   <p>Post your questions in the forums of the course where myself and thousand of students are happy to help</p>
+                </div>
+               </div>
+        </div>
+
+    </div>
+       
+    <div class="container" id="faculties">
+         <div>
+            <h3 style="text-align: center;">India's Leading Faculties</h3>
+         </div>
+        <div class="carousel slide" id="myCarousel" data-ride="carousel">
+          <ol class="carousel-indicators">
+            <li data-target="#myCarousel" data-slide-to="0" class="active">
+            </li>
+            <li data-target="#myCarousel" data-slide-to="1">
+            </li>
+            <li data-target="#myCarousel" data-slide-to="2">
+            </li>
+            <li data-target="#myCarousel" data-slide-to="3">
+            </li>
+            <li data-target="#myCarousel" data-slide-to="4">
+            </li>
+          </ol>
+          <div class="carousel-inner">
+            <div class="item active">
+              <img src="/Image/fisrtSlide.jpg">
+            <div class="carousel-caption">
+              <p>
+                Mrs Ayyer
+              </p>
+            </div>
+        </div>
+        <div class="item">
+          <img src="/Image/secondSlied.jpg">
+          <div class="carousel-caption">
+            <p>
+              Mrs Sharma
+            </p>
+          </div>
+        </div>
+        <div class="item">
+          <img src="/Image/thirdSlied.jpg">
+          <div class="carousel-caption">
+            <p>
+              Mrs Batra
+            </p>
+          </div>
+        </div>
+        <div class="item">
+          <img src="/Image/fourthSlide.jpg">
+          <div class="carousel-caption">
+            <p>
+              Mrs khan
+            </p>
+          </div>
+        </div>
+        <div class="item">
+          <img src="/Image/fifhtSlide.jpg">
+          <div class="carousel-caption">
+            <p>
+              Mrs Shetty
+            </p>
+          </div>
+        </div>
+    </div>
+    <a class="left carousel-control" href="#myCarousel" data-slide="prev">
+      <span class="glyphicon glyphicon-chevron-left">
+      </span>
+      <span class="sr-only">
+        Previous
+      </span>
+    </a>
+    <a class="right carousel-control" href="#myCarousel" data-slide="next">
+      <span class="glyphicon glyphicon-chevron-right">
+      </span>
+      <span class="sr-only">
+        Previous
+      </span>
+    </a>
+    </div>
+    </div>
+    <div class="footer">
+        <div class="container">
+            <p>&copy; Deveoper Monis</p>
+        </div>
+    </div>
+     <!-- jQuery(necessary for bootstrap's javaScript plugin) -->
+    
+    
+    
+    
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.3/jquery.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+
+</body>
+</html>
